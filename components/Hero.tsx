@@ -1,19 +1,6 @@
-import Image from 'next/image'
-
 export default function Hero() {
   return (
-    <section className="relative h-screen min-h-[600px] overflow-hidden flex items-center justify-center">
-      <Image
-        src="/back.jpg"
-        alt="Sports Academy background"
-        fill
-        className="object-cover object-center"
-        priority
-        quality={90}
-        sizes="100vw"
-      />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
-
+    <section className="relative h-screen min-h-[600px] flex items-center justify-center">
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <p className="text-amber-400 text-sm font-semibold uppercase tracking-[0.2em] mb-4">
           Tite Manzi Sports Academy

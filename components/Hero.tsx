@@ -6,7 +6,7 @@ export default function Hero() {
           Tite Manzi Sports Academy
         </p>
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight text-white mb-6 drop-shadow-lg">
-          Developing the Next Generation of Football Stars
+          Developing the Next Generation of Football <span className="text-amber-400">Stars</span>
         </h1>
         <p className="text-lg sm:text-xl text-slate-200 mb-10 max-w-2xl mx-auto leading-relaxed">
           Professional youth development, elite coach education, and world-class tournament management — all under one roof.
